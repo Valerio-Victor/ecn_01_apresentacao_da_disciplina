@@ -296,6 +296,10 @@ library(kableExtra)
 
 cronograma <- data.frame(
   SEMANA = c(9, 10, 11, 12, 13, 14, 15, 16),
+  ÁREA = c('Microeconomia', 'Microeconomia',
+           'Microeconomia', 'Microeconomia',
+           'Microeconomia','Microeconomia',
+           'Microeconomia','Microeconomia'),
   TEMAS = c('Identidades Macroeconômicas',
             'Preferências do Consumidor', 
             'Funções Utilidade e Escolha Ótima', 
@@ -308,7 +312,7 @@ cronograma <- data.frame(
 knitr::kable(cronograma, 
              escape = FALSE,
              format = 'html',
-             align = c('c', 'c', 'l')) %>%
+             align = c('c', 'c', 'c')) %>%
   
   kable_styling(bootstrap_options = 'striped')
 
