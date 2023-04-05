@@ -26,7 +26,7 @@ xaringanExtra::use_search(show_icon = TRUE)
 class: inverse, center, middle
 
 # COMEÇOU A DISCIPLINA DE ECONOMIA
-```{r, echo = F, fig.align = 'center', out.width = '50%'}
+```{r, echo = F, fig.align = 'center', out.width = '50%', fig.alt= 'Gif do homer simpson em frente ao computador procurando uma tecla. Há uma legenda com a mensagem: to start press any key. Where is the any key?'}
 knitr::include_graphics(
   'https://media.giphy.com/media/citBl9yPwnUOs/giphy.gif')
 ```
@@ -49,7 +49,7 @@ class: inverse, center, middle
 name: sobre_participantes
 ## QUEM SÃO OS PARTICIPANTES?
 
-```{r, echo = F, fig.align = 'center', out.width = '50%'}
+```{r, echo = F, fig.align = 'center', out.width = '50%', fig.alt= 'gif com uma reunião de vizinhos da família do homer'}
 knitr::include_graphics(
   'https://media.giphy.com/media/26gBjgcJMUqShHs4w/giphy.gif')
 ```
@@ -94,7 +94,7 @@ Coordenador de Graduação de Curso (Administração-UNIFEI).
 class: inverse, center, middle  
 ## PAI DE PET
 
-```{r, echo = F, fig.align = 'center', out.width = '30%'}
+```{r, echo = F, fig.align = 'center', out.width = '30%', fig.alt= 'foto minha com a minha noiva e as minhas duas cahorras de estimação, elas são vira-latas pretas. Há uma mensagem: pai de pet'}
 knitr::include_graphics('familia.jpeg')
 ```
 
@@ -102,7 +102,7 @@ knitr::include_graphics('familia.jpeg')
 class: inverse, center, middle 
 ## MAIOR DO PAÍS
 
-```{r, echo = F, fig.align = 'center', out.width = '40%'}
+```{r, echo = F, fig.align = 'center', out.width = '40%', fig.alt='gif do porco (mascote do palmeiras) vestindo a camiseta do palmeiras. Há uma legenda dizendo que este time é o maior do país'}
 knitr::include_graphics(
   'https://media.giphy.com/media/ZeA9GkdqTLLm6I2Hab/giphy.gif')
 ```
@@ -111,7 +111,7 @@ knitr::include_graphics(
 class: inverse, center, middle 
 ## CAMPEÃO DA LIGA SULMINEIRA DE SURF
 
-```{r, echo = F, fig.align = 'center', out.width = '40%'}
+```{r, echo = F, fig.align = 'center', out.width = '40%', fig.alt= 'gif com um rapaz surfando em uma piscina com ondas artificiais. há uma legenda afirmando que eu sou campeão da liga sulmineira de surf'}
 knitr::include_graphics(
   'https://media.giphy.com/media/BM7rEaVmOUVIG2yxbj/giphy.gif')
 ```
@@ -121,7 +121,6 @@ knitr::include_graphics(
 ## PERGUNTAS A SEREM RESPONDIDAS POR CADA ESTUDANTE
 
 - Qual o seu nome?
-- Qual área de atuação profissional te interessa?
 - Você se matricularia se não fosse obrigatória?
 - Qual seu hobby? (esporte, filmes/séries, dormir, dançar, fofocar...)
 - Qual seu signo?
@@ -247,9 +246,8 @@ knitr::include_graphics(
 
 - FRENTES DE CONHECIMENTO DA DISCIPLINA:
 	
-	- ÁREA 1: Método de Pesquisa em Economia;
-	- ÁREA 2: Microeconomia;
-	- ÁREA 3: Macroeconomia.
+	- ÁREA 1: Microeconomia;
+	- ÁREA 2: Macroeconomia.
 
 
 - OBSERVAÇÃO: 
@@ -266,12 +264,12 @@ library(kableExtra)
 
 cronograma <- data.frame(
   SEMANA = c(1, 2, 3, 4, 5, 6, 7, 8),
-  ÁREA = c('Metodologia', 'Macroeconomia',
+  ÁREA = c('------', '------',
            'Macroeconomia', 'Macroeconomia',
            'Macroeconomia','Macroeconomia',
            'Macroeconomia','Macroeconomia'),
-  TEMAS = c('Apresentação da Disciplina',
-           'Método de Pesquisa em Economia', 
+  TEMAS = c('------',
+           'Apresentação da Disciplina', 
            'Taxa de Inflação', 
            'Taxa de Câmbio',
            'Taxa de Juros',
